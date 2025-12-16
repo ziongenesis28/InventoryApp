@@ -1,11 +1,9 @@
-# Python cache files
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-
-# Build files
 build/
 develop-eggs/
 dist/
@@ -22,7 +20,7 @@ wheels/
 .installed.cfg
 *.egg
 
-# YOUR DATABASE FILES - MOST IMPORTANT!
+# DATABASE FILES - MOST IMPORTANT!
 *.xlsx
 *.xls
 *.db
@@ -31,16 +29,16 @@ inventory.xlsx
 inventory_backup_*.xlsx
 data/inventory.xlsx
 data/*.xlsx
-
-# Your Excel backups
 backup_*.xlsx
+
+# Application-specific backups
 products_*.xlsx
 ingredients_*.xlsx
 recipes_*.xlsx
 sales_*.xlsx
 inventory_logs_*.xlsx
 
-# Environment variables (passwords, API keys)
+# Environment variables (PASSWORDS, API KEYS)
 .env
 .venv
 env/
@@ -67,3 +65,8 @@ desktop.ini
 # Temporary files
 *.tmp
 *.temp
+
+# Your specific data files - ADD ANY OTHERS HERE!
+client_data/
+exports/
+reports/
